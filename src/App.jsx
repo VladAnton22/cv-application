@@ -19,7 +19,7 @@ function handlePersonalChange(e) {
 
 
   return (
-    <div className=" md:grid md:grid-cols-2 md:gap-6">
+    <div className="mt-6 md:grid md:grid-cols-2 md:gap-6">
       <div className="mx-auto">
         <PersonalInfoForm 
           onChange={handlePersonalChange}

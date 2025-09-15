@@ -9,8 +9,9 @@ export default function InputDiv({
 
 }) {
     return (
-        <div className="">
-            <label htmlFor={id}>
+        <div className="flex flex-col">
+            <label htmlFor={id}
+                    className="mb-1 text-sm text-gray-700">
                 {labelText}
             </label>
             {type === "textarea" ? (
@@ -20,6 +21,7 @@ export default function InputDiv({
                     onChange={onChange}
                     value={value}
                     data-key={dataKey}
+                    className="border border-gray-300 rounded-lg px-3 py-2 text-base focus:outline-none focus:border-black focus:ring-1 focus:ring-black"
                 ></textarea>
             ) : (
                 <input
@@ -29,6 +31,7 @@ export default function InputDiv({
                 onChange={onChange}
                 value={value}
                 data-key={dataKey}
+                className="border border-gray-300 rounded-lg px-3 py-2 text-base focus:outline-none focus:border-black focus:ring-1 focus:ring-black"
                 />
             )}
         </div>
