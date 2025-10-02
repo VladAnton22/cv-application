@@ -1,4 +1,4 @@
-#CV Builder
+## CV Builder
 
 A CV builder made in react and tailwindcss. I built this as a part of the Odin Project to practice using react props and state.
 
