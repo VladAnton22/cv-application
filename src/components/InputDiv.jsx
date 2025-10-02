@@ -21,7 +21,7 @@ export default function InputDiv({
                     onChange={onChange}
                     value={value}
                     data-key={dataKey}
-                    className="border border-gray-300 rounded-lg px-3 py-2 text-base focus:outline-none focus:border-black focus:ring-1 focus:ring-black"
+                    className="border border-gray-300 text-gray-700 rounded-lg px-3 py-2 text-base focus:outline-none focus:border-black focus:ring-1 focus:ring-black"
                 ></textarea>
             ) : (
                 <input
@@ -31,7 +31,7 @@ export default function InputDiv({
                 onChange={onChange}
                 value={value}
                 data-key={dataKey}
-                className="border border-gray-300 rounded-lg px-3 py-2 text-base focus:outline-none focus:border-black focus:ring-1 focus:ring-black"
+                className="border border-gray-300 text-gray-700 rounded-lg px-3 py-2 text-base focus:outline-none focus:border-black focus:ring-1 focus:ring-black"
                 />
             )}
         </div>
