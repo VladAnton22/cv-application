@@ -8,7 +8,7 @@ export default function PersonalInfoForm({
   address,
 }) {
   return (
-    <div class="p-3 border-2 mb-6 rounded-md border-gray-300">
+    <div class="p-3 pb-6 border-2 mb-6 rounded-md border-gray-300">
       <h2 className="text-2xl font-semibold mb-2 text-center">Personal Info</h2>
       <form className="max-w-sm mx-auto flex flex-col gap-4 font-sans">
         <InputDiv
